@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+    background-color:rgb(103, 164, 110);
+    font-family: Arial, sans-serif;
+    color: #161313;
+}
+
+.sidebar .sidebar-content {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.stButton>button {
+    background-color: #ffffff;
+    color: #4CAF50;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 0;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stButton>button:hover {
+    background-color: #45a049;
+    color: #ffffff;
+}
+
+.stImage>img {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stSuccess {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.stTitle {
+    color: #ffffff;
+}
+
+.stMarkdown {
+    line-height: 1.6;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    border:1px solid black;
+}
+
+table,th,td {
+    padding: 2pc;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-collapse: collapse;
+    border:1px solid black;
+}
+
+table th {
+    background-color: #3ba512;
+    color: rgb(44, 192, 44);
+    font-weight:bolder;
+}
+tr:hover {
+    background-color: #dbed7f;
+}
+
